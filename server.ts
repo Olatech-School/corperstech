@@ -18,7 +18,7 @@ import { CareerExplorerController } from './src/server/controllers/CareerExplore
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = Number(process.env.PORT) || 3000;
 
   // Enable JSON body parser
   app.use(express.json());
