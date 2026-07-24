@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "opportunityId": 101,
+    "stage": "Discovered",
+    "description": "Opportunity discovered via Sterling Bank Graduate Careers. Confident Match Score: 94%.",
+    "createdAt": "2026-07-21T13:36:11.652Z"
+  },
+  {
+    "id": 2,
+    "opportunityId": 101,
+    "stage": "Verified",
+    "description": "AI Verification checklist run. Result: Verified & Trusted. Confidence: 94%. Notes: Official portal verified.",
+    "createdAt": "2026-07-22T13:36:11.652Z"
+  },
+  {
+    "id": 3,
+    "opportunityId": 102,
+    "stage": "Discovered",
+    "description": "Opportunity discovered via Interswitch Internship Hub. Confident Match Score: 89%.",
+    "createdAt": "2026-07-19T13:36:11.652Z"
+  },
+  {
+    "id": 4,
+    "opportunityId": 102,
+    "stage": "Verified",
+    "description": "AI Verification checklist run. Result: Verified & Trusted.",
+    "createdAt": "2026-07-20T13:36:11.652Z"
+  },
+  {
+    "id": 5,
+    "opportunityId": 104,
+    "stage": "Verified",
+    "description": "AI Verification checklist run. Result: Passed. Confidence: 85%. Notes: Passed structural ingestion validation.",
+    "createdAt": "2026-07-24T12:26:26.414Z"
+  },
+  {
+    "id": 6,
+    "opportunityId": 104,
+    "stage": "Reviewed",
+    "description": "Opportunity status updated to Verified.",
+    "createdAt": "2026-07-24T12:26:26.419Z"
+  },
+  {
+    "id": 7,
+    "opportunityId": 105,
+    "stage": "Verified",
+    "description": "AI Verification checklist run. Result: Passed. Confidence: 85%. Notes: Passed structural ingestion validation.",
+    "createdAt": "2026-07-24T12:26:34.965Z"
+  },
+  {
+    "id": 8,
+    "opportunityId": 105,
+    "stage": "Reviewed",
+    "description": "Opportunity status updated to Verified.",
+    "createdAt": "2026-07-24T12:26:35.273Z"
+  },
+  {
+    "id": 9,
+    "opportunityId": 106,
+    "stage": "Verified",
+    "description": "AI Verification checklist run. Result: Passed. Confidence: 85%. Notes: Passed structural ingestion validation.",
+    "createdAt": "2026-07-24T12:26:45.452Z"
+  },
+  {
+    "id": 10,
+    "opportunityId": 106,
+    "stage": "Reviewed",
+    "description": "Opportunity status updated to Verified.",
+    "createdAt": "2026-07-24T12:26:45.458Z"
+  }
+]

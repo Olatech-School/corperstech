@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "intervalHours": 24,
+    "lastScan": "2026-07-24T12:35:13.879Z",
+    "nextScheduledScan": "2026-07-25T12:35:13.879Z",
+    "scanDurationMs": 177166,
+    "sourcesChecked": 6,
+    "newOpportunitiesFound": 18,
+    "duplicatesIgnored": 0,
+    "verificationFailures": 0
+  }
+]

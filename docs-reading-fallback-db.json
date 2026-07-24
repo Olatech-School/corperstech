@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "documentId": 1,
+    "userEmail": "admineducert@gmail.com",
+    "lastReadAt": "2026-07-09T15:54:57.417Z"
+  },
+  {
+    "id": 2,
+    "documentId": 4,
+    "userEmail": "admineducert@gmail.com",
+    "lastReadAt": "2026-07-09T08:31:24.110Z"
+  },
+  {
+    "id": 3,
+    "documentId": 3,
+    "userEmail": "admineducert@gmail.com",
+    "lastReadAt": "2026-07-09T08:31:27.832Z"
+  }
+]

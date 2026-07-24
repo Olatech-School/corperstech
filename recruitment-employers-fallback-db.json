@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Sterling Bank Plc",
+    "website": "https://sterling.ng",
+    "industry": "Fintech & Banking",
+    "country": "Nigeria",
+    "technologyAreas": "DevOps & Cloud, Linux, AWS basics, Docker, Python or Go, CI/CD pipelines",
+    "opportunitiesPublished": 1,
+    "currentOpenRoles": 1,
+    "remoteHiringRatio": 0,
+    "graduateHiringRatio": 1,
+    "confidenceRating": 4.7,
+    "averageHiringFrequency": "Monthly"
+  },
+  {
+    "id": 2,
+    "name": "Interswitch Group",
+    "website": "https://interswitchgroup.com",
+    "industry": "Fintech & Payments",
+    "country": "Nigeria",
+    "technologyAreas": "Frontend Development, React, TypeScript, Tailwind CSS, REST APIs, Git",
+    "opportunitiesPublished": 1,
+    "currentOpenRoles": 1,
+    "remoteHiringRatio": 0,
+    "graduateHiringRatio": 0,
+    "confidenceRating": 4.5,
+    "averageHiringFrequency": "Monthly"
+  },
+  {
+    "id": 3,
+    "name": "Andela Talent Network",
+    "website": "https://andela.com",
+    "industry": "Technology & Talent",
+    "country": "Nigeria",
+    "technologyAreas": "Fullstack Development, React, Node.js, AI, DevOps",
+    "opportunitiesPublished": 8,
+    "currentOpenRoles": 6,
+    "remoteHiringRatio": 1,
+    "graduateHiringRatio": 0.4,
+    "confidenceRating": 4.9,
+    "averageHiringFrequency": "Weekly"
+  },
+  {
+    "id": 4,
+    "name": "CorpersTech Labs",
+    "website": "https://corperstech.com.ng/careers/test",
+    "industry": "Technology",
+    "country": "Nigeria",
+    "technologyAreas": "Software Engineering, React, TypeScript, Tailwind, Node.js",
+    "opportunitiesPublished": 1,
+    "currentOpenRoles": 1,
+    "remoteHiringRatio": 1,
+    "graduateHiringRatio": 0,
+    "confidenceRating": 4.8,
+    "averageHiringFrequency": "Monthly"
+  }
+]

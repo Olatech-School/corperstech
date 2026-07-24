@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Moniepoint Nigeria",
+    "logoUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=150&auto=format&fit=crop&q=80",
+    "websiteUrl": "https://moniepoint.com",
+    "industry": "Fintech",
+    "partnershipLevel": "Gold",
+    "activeRolesCount": 3,
+    "createdAt": "2026-07-08T16:39:09.830Z"
+  },
+  {
+    "id": 2,
+    "name": "Sterling Bank Plc",
+    "logoUrl": "https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?w=150&auto=format&fit=crop&q=80",
+    "websiteUrl": "https://sterling.ng",
+    "industry": "Banking",
+    "partnershipLevel": "Platinum",
+    "activeRolesCount": 2,
+    "createdAt": "2026-07-08T16:39:09.830Z"
+  },
+  {
+    "id": 3,
+    "name": "Paystack",
+    "logoUrl": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=150&auto=format&fit=crop&q=80",
+    "websiteUrl": "https://paystack.com",
+    "industry": "Fintech",
+    "partnershipLevel": "Gold",
+    "activeRolesCount": 1,
+    "createdAt": "2026-07-08T16:39:09.830Z"
+  },
+  {
+    "id": 4,
+    "name": "Flutterwave",
+    "logoUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=150&auto=format&fit=crop&q=80",
+    "websiteUrl": "https://flutterwave.com",
+    "industry": "Fintech",
+    "partnershipLevel": "Silver",
+    "activeRolesCount": 1,
+    "createdAt": "2026-07-08T16:39:09.830Z"
+  },
+  {
+    "id": 5,
+    "name": "Andela Nigeria",
+    "logoUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=150&auto=format&fit=crop&q=80",
+    "websiteUrl": "https://andela.com",
+    "industry": "Software Engineering",
+    "partnershipLevel": "Platinum",
+    "activeRolesCount": 4,
+    "createdAt": "2026-07-08T16:39:09.830Z"
+  }
+]

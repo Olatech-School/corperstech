@@ -1,0 +1,573 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model auditlog {
+  id          Int      @id @default(autoincrement())
+  timestamp   DateTime @default(now())
+  user        String
+  userRole    String
+  eventType   String
+  description String
+  status      String
+}
+
+model careerprofileanalytics {
+  id         Int      @id @default(autoincrement())
+  courseId   String
+  metricType String
+  userEmail  String?
+  metadata   String?  @db.Text
+  createdAt  DateTime @default(now())
+}
+
+model careerresource {
+  id          Int      @id @default(autoincrement())
+  title       String
+  type        String
+  url         String?
+  description String
+  status      String   @default("Published")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime
+}
+
+model careertrackprofile {
+  id                 Int      @id @default(autoincrement())
+  courseId           String   @unique(map: "CareerTrackProfile_courseId_key")
+  title              String
+  category           String   @default("Software & Web")
+  description        String   @db.Text
+  whoItSuits         String   @db.Text
+  salary             String   @db.Text
+  remote             String   @db.Text
+  freelance          String   @db.Text
+  skills             String   @db.Text
+  duration           String
+  roadmap            String   @db.Text
+  companies          String   @db.Text
+  tools              String   @db.Text
+  nyscReason         String?  @db.Text
+  difficulty         String?
+  demandRating       String?
+  typicalProjects    String?  @db.Text
+  portfolioRecs      String?  @db.Text
+  certifications     String?  @db.Text
+  globalPotential    String?  @db.Text
+  longTermGrowth     String?  @db.Text
+  status             String   @default("Published")
+  viewsCount         Int      @default(0)
+  registrationsCount Int      @default(0)
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime
+}
+
+model corpsmemberprofile {
+  id                   Int      @id @default(autoincrement())
+  email                String   @unique(map: "CorpsMemberProfile_email_key")
+  skills               String?
+  linkedinUrl          String?
+  githubUrl            String?
+  portfolioUrl         String?
+  cvText               String?
+  cvReadinessScore     Int      @default(0)
+  cvFeedback           String?
+  careerReadinessScore Int      @default(35)
+  viewedOpportunityIds String?
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime
+}
+
+model employer {
+  id                     Int                      @id @default(autoincrement())
+  name                   String                   @unique(map: "Employer_name_key")
+  website                String?
+  industry               String?                  @default("Technology")
+  country                String?                  @default("Nigeria")
+  technologyAreas        String?                  @default("Software Engineering")
+  opportunitiesPublished Int                      @default(0)
+  averageHiringFrequency String?                  @default("Monthly")
+  remoteHiringRatio      Float                    @default(0)
+  graduateHiringRatio    Float                    @default(0)
+  currentOpenRoles       Int                      @default(0)
+  confidenceRating       Float                    @default(4.5)
+  createdAt              DateTime                 @default(now())
+  updatedAt              DateTime
+  recruitmentopportunity recruitmentopportunity[]
+}
+
+model employerpartner {
+  id                Int      @id @default(autoincrement())
+  name              String
+  logo              String?
+  description       String
+  website           String?
+  recruitmentStatus String
+  status            String   @default("Published")
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime
+}
+
+model enrollment {
+  id                     Int      @id @default(autoincrement())
+  firstName              String
+  lastName               String
+  email                  String   @unique(map: "Enrollment_email_key")
+  phone                  String
+  gender                 String
+  dateOfBirth            String
+  stateOfOrigin          String
+  stateOfService         String
+  localGovernment        String
+  nyscBatch              String
+  ppa                    String
+  course                 String
+  transportationOption   String
+  pickupLocation         String?
+  whyInterested          String
+  previousTechExperience String
+  laptopAvailable        String
+  status                 String   @default("Pending")
+  adminNotes             String?
+  createdAt              DateTime @default(now())
+  updatedAt              DateTime
+}
+
+model eventattendance {
+  id               Int           @id @default(autoincrement())
+  eventId          Int
+  reservationId    Int?
+  attendeeEmail    String
+  attendeeName     String
+  attendanceStatus String
+  checkInTime      DateTime      @default(now())
+  markedBy         String?       @default("Staff Admin")
+  notes            String?
+  upcomingevent    upcomingevent @relation(fields: [eventId], references: [id], onDelete: Cascade, map: "EventAttendance_eventId_fkey")
+
+  @@index([eventId], map: "EventAttendance_eventId_fkey")
+}
+
+model eventreservation {
+  id               Int           @id @default(autoincrement())
+  reservationId    String        @unique(map: "EventReservation_reservationId_key") @default("RES-PENDING")
+  eventId          Int
+  fullName         String
+  email            String
+  phone            String
+  course           String?       @default("General Tech")
+  nyscState        String
+  nyscBatch        String
+  referenceNumber  String?       @default("N/A")
+  attendanceType   String?       @default("Physical")
+  transportation   String?       @default("Personal Transportation")
+  pickupLocation   String?       @default("")
+  status           String        @default("Confirmed")
+  attendanceStatus String        @default("Pending")
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime
+  upcomingevent    upcomingevent @relation(fields: [eventId], references: [id], onDelete: Cascade, map: "EventReservation_eventId_fkey")
+
+  @@index([eventId], map: "EventReservation_eventId_fkey")
+}
+
+model homepagehighlight {
+  id        Int      @id @default(autoincrement())
+  title     String
+  type      String
+  content   String
+  actionUrl String?
+  status    String   @default("Published")
+  createdAt DateTime @default(now())
+  updatedAt DateTime
+}
+
+model jobapplication {
+  id               Int            @id @default(autoincrement())
+  jobOpportunityId Int
+  fullName         String
+  email            String
+  phone            String
+  currentNyscState String
+  nyscBatch        String
+  technologySkill  String
+  experienceLevel  String
+  portfolioUrl     String?
+  linkedInProfile  String?
+  githubProfile    String?
+  cvPath           String?
+  coverLetter      String
+  status           String         @default("Pending")
+  adminNotes       String?
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime
+  jobopportunity   jobopportunity @relation(fields: [jobOpportunityId], references: [id], map: "JobApplication_jobOpportunityId_fkey")
+
+  @@index([jobOpportunityId], map: "JobApplication_jobOpportunityId_fkey")
+}
+
+model jobopportunity {
+  id             Int              @id @default(autoincrement())
+  title          String
+  company        String
+  location       String
+  type           String
+  roleType       String
+  description    String
+  stipend        String
+  datePosted     String
+  skills         String
+  status         String           @default("Published")
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime
+  jobapplication jobapplication[]
+}
+
+model opportunitycategory {
+  id                     Int                      @id @default(autoincrement())
+  name                   String                   @unique(map: "OpportunityCategory_name_key")
+  createdAt              DateTime                 @default(now())
+  updatedAt              DateTime
+  recruitmentopportunity recruitmentopportunity[]
+}
+
+model opportunitychangelog {
+  id                     Int                    @id @default(autoincrement())
+  opportunityId          Int
+  fieldName              String
+  previousValue          String
+  updatedValue           String
+  aiSummary              String
+  detectedAt             DateTime               @default(now())
+  recruitmentopportunity recruitmentopportunity @relation(fields: [opportunityId], references: [id], onDelete: Cascade, map: "OpportunityChangeLog_opportunityId_fkey")
+
+  @@index([opportunityId], map: "OpportunityChangeLog_opportunityId_fkey")
+}
+
+model opportunityduplicatehistory {
+  id                     Int                    @id @default(autoincrement())
+  opportunityId          Int
+  duplicateTitle         String
+  duplicateCompany       String
+  duplicateUrl           String
+  mergedAt               DateTime               @default(now())
+  reason                 String
+  recruitmentopportunity recruitmentopportunity @relation(fields: [opportunityId], references: [id], onDelete: Cascade, map: "OpportunityDuplicateHistory_opportunityId_fkey")
+
+  @@index([opportunityId], map: "OpportunityDuplicateHistory_opportunityId_fkey")
+}
+
+model opportunitypublication {
+  id                     Int                    @id @default(autoincrement())
+  opportunityId          Int                    @unique(map: "OpportunityPublication_opportunityId_key")
+  publicationStatus      String                 @default("Pending Review")
+  publishedAt            DateTime?
+  publishedBy            String?
+  createdAt              DateTime               @default(now())
+  updatedAt              DateTime
+  recruitmentopportunity recruitmentopportunity @relation(fields: [opportunityId], references: [id], onDelete: Cascade, map: "OpportunityPublication_opportunityId_fkey")
+}
+
+model opportunitysource {
+  id                     Int                      @id @default(autoincrement())
+  name                   String                   @unique(map: "OpportunitySource_name_key")
+  url                    String
+  isActive               Boolean                  @default(true)
+  createdAt              DateTime                 @default(now())
+  updatedAt              DateTime
+  recruitmentopportunity recruitmentopportunity[]
+}
+
+model opportunityverification {
+  id                     Int                    @id @default(autoincrement())
+  opportunityId          Int                    @unique(map: "OpportunityVerification_opportunityId_key")
+  isActivePage           Boolean                @default(false)
+  isValidDeadline        Boolean                @default(false)
+  isTrustedSource        Boolean                @default(false)
+  isDuplicate            Boolean                @default(false)
+  verifiedCategory       String?
+  verifiedTechnology     String?
+  verificationStatus     String                 @default("Pending")
+  confidenceScore        Float                  @default(0)
+  notes                  String?
+  lastVerificationDate   DateTime               @default(now())
+  createdAt              DateTime               @default(now())
+  updatedAt              DateTime
+  recruitmentopportunity recruitmentopportunity @relation(fields: [opportunityId], references: [id], onDelete: Cascade, map: "OpportunityVerification_opportunityId_fkey")
+}
+
+model projectshowcase {
+  id           Int      @id @default(autoincrement())
+  title        String
+  studentName  String
+  screenshot   String?
+  liveDemoUrl  String?
+  githubUrl    String?
+  technologies String
+  description  String
+  status       String   @default("Published")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime
+}
+
+model recruitmentapplication {
+  id            Int      @id @default(autoincrement())
+  userEmail     String
+  opportunityId Int
+  status        String   @default("Applied")
+  notes         String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime
+
+  @@unique([userEmail, opportunityId], map: "RecruitmentApplication_userEmail_opportunityId_key")
+}
+
+model recruitmentnotification {
+  id        Int      @id @default(autoincrement())
+  title     String
+  message   String
+  type      String
+  isRead    Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+model recruitmentopportunity {
+  id                          Int                           @id @default(autoincrement())
+  jobTitle                    String
+  description                 String
+  location                    String
+  remoteStatus                String
+  salary                      String?
+  experienceLevel             String?
+  requiredSkills              String
+  officialUrl                 String
+  applicationDeadline         String?
+  discoveryDate               DateTime                      @default(now())
+  confidenceScore             Float                         @default(0)
+  duplicateHash               String?
+  sourceId                    Int
+  employerId                  Int
+  categoryId                  Int
+  qualityScore                Float                         @default(70)
+  qualityGrade                String                        @default("Good")
+  qualityDetails              String                        @default("{}")
+  createdAt                   DateTime                      @default(now())
+  updatedAt                   DateTime
+  opportunitychangelog        opportunitychangelog[]
+  opportunityduplicatehistory opportunityduplicatehistory[]
+  opportunitypublication      opportunitypublication?
+  opportunityverification     opportunityverification?
+  opportunitycategory         opportunitycategory           @relation(fields: [categoryId], references: [id], map: "RecruitmentOpportunity_categoryId_fkey")
+  employer                    employer                      @relation(fields: [employerId], references: [id], map: "RecruitmentOpportunity_employerId_fkey")
+  opportunitysource           opportunitysource             @relation(fields: [sourceId], references: [id], map: "RecruitmentOpportunity_sourceId_fkey")
+  recruitmenttimelineevent    recruitmenttimelineevent[]
+
+  @@index([categoryId], map: "RecruitmentOpportunity_categoryId_fkey")
+  @@index([employerId], map: "RecruitmentOpportunity_employerId_fkey")
+  @@index([sourceId], map: "RecruitmentOpportunity_sourceId_fkey")
+}
+
+model recruitmentscheduler {
+  id                    Int       @id @default(autoincrement())
+  intervalHours         Int       @default(24)
+  lastScan              DateTime?
+  nextScheduledScan     DateTime?
+  scanDurationMs        Int       @default(0)
+  sourcesChecked        Int       @default(0)
+  newOpportunitiesFound Int       @default(0)
+  duplicatesIgnored     Int       @default(0)
+  verificationFailures  Int       @default(0)
+}
+
+model recruitmenttimelineevent {
+  id                     Int                    @id @default(autoincrement())
+  opportunityId          Int
+  stage                  String
+  description            String
+  createdAt              DateTime               @default(now())
+  recruitmentopportunity recruitmentopportunity @relation(fields: [opportunityId], references: [id], onDelete: Cascade, map: "RecruitmentTimelineEvent_opportunityId_fkey")
+
+  @@index([opportunityId], map: "RecruitmentTimelineEvent_opportunityId_fkey")
+}
+
+model savedcareerbookmark {
+  id          Int      @id @default(autoincrement())
+  userEmail   String
+  courseId    String
+  courseTitle String
+  notes       String?  @db.Text
+  compared    Boolean  @default(false)
+  createdAt   DateTime @default(now())
+
+  @@unique([userEmail, courseId], map: "SavedCareerBookmark_userEmail_courseId_key")
+}
+
+model savedopportunity {
+  id            Int      @id @default(autoincrement())
+  userEmail     String
+  opportunityId Int
+  createdAt     DateTime @default(now())
+
+  @@unique([userEmail, opportunityId], map: "SavedOpportunity_userEmail_opportunityId_key")
+}
+
+model staff {
+  id                  Int       @id @default(autoincrement())
+  firstName           String
+  lastName            String
+  email               String    @unique(map: "Staff_email_key")
+  phone               String
+  role                String
+  status              String    @default("Active")
+  passwordHash        String
+  forcePasswordChange Boolean   @default(false)
+  lastLogin           DateTime?
+  isDeleted           Boolean   @default(false)
+  createdAt           DateTime  @default(now())
+  updatedAt           DateTime
+}
+
+model staffauditlog {
+  id         Int      @id @default(autoincrement())
+  staffId    String   @default("SYS-001")
+  staffEmail String
+  action     String
+  module     String
+  details    String?
+  status     String   @default("Success")
+  ipAddress  String?
+  createdAt  DateTime @default(now())
+}
+
+model staffdocument {
+  id               Int      @id @default(autoincrement())
+  title            String
+  category         String
+  content          String   @db.Text
+  version          String   @default("1.0.0")
+  author           String   @default("Super Admin")
+  status           String   @default("Published")
+  tags             String   @default("")
+  visibilityByRole String   @default("All")
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime
+}
+
+model staffdocumentbookmark {
+  id         Int      @id @default(autoincrement())
+  documentId Int
+  userEmail  String
+  createdAt  DateTime @default(now())
+
+  @@unique([documentId, userEmail], map: "StaffDocumentBookmark_documentId_userEmail_key")
+}
+
+model staffdocumentfeedback {
+  id            Int      @id @default(autoincrement())
+  documentId    Int
+  userEmail     String
+  rating        Int
+  isHelpful     Boolean  @default(true)
+  suggestions   String?  @db.Text
+  isOutdated    Boolean  @default(false)
+  requestUpdate Boolean  @default(false)
+  createdAt     DateTime @default(now())
+}
+
+model staffdocumenthistory {
+  id         Int      @id @default(autoincrement())
+  documentId Int
+  version    String
+  content    String   @db.Text
+  author     String
+  notes      String?  @db.Text
+  createdAt  DateTime @default(now())
+}
+
+model staffdocumentreading {
+  id         Int      @id @default(autoincrement())
+  documentId Int
+  userEmail  String
+  lastReadAt DateTime @default(now())
+
+  @@unique([documentId, userEmail], map: "StaffDocumentReading_documentId_userEmail_key")
+}
+
+model staffdocumentsearchkeyword {
+  id        Int      @id @default(autoincrement())
+  keyword   String   @unique(map: "StaffDocumentSearchKeyword_keyword_key")
+  count     Int      @default(1)
+  updatedAt DateTime
+}
+
+model successstory {
+  id             Int      @id @default(autoincrement())
+  name           String
+  avatar         String?
+  beforeJourney  String
+  afterJourney   String
+  salary         String
+  company        String
+  technology     String
+  graduationYear String
+  batch          String
+  status         String   @default("Published")
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime
+}
+
+model upcomingevent {
+  id                   Int                @id @default(autoincrement())
+  title                String
+  type                 String
+  date                 String
+  time                 String
+  location             String
+  totalSeats           Int
+  reservedSeats        Int                @default(0)
+  registrationDeadline String
+  description          String
+  status               String             @default("Published")
+  createdAt            DateTime           @default(now())
+  updatedAt            DateTime
+  eventattendance      eventattendance[]
+  eventreservation     eventreservation[]
+  waitinglist          waitinglist[]
+}
+
+model usernotification {
+  id        Int      @id @default(autoincrement())
+  userEmail String
+  title     String
+  message   String
+  type      String
+  isRead    Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+model waitinglist {
+  id              Int           @id @default(autoincrement())
+  eventId         Int
+  fullName        String
+  email           String
+  phone           String
+  course          String?       @default("General Tech")
+  nyscState       String
+  nyscBatch       String
+  referenceNumber String?       @default("N/A")
+  attendanceType  String?       @default("Physical")
+  transportation  String?       @default("Personal Transportation")
+  pickupLocation  String?       @default("")
+  position        Int           @default(1)
+  status          String        @default("Waiting")
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime
+  upcomingevent   upcomingevent @relation(fields: [eventId], references: [id], onDelete: Cascade, map: "WaitingList_eventId_fkey")
+
+  @@index([eventId], map: "WaitingList_eventId_fkey")
+}

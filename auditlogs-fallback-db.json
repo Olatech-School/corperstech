@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2026-07-09T08:31:44.305Z",
+    "user": "Super Admin",
+    "userRole": "Super Admin",
+    "eventType": "Logout",
+    "description": "Staff member logged out: admineducert@gmail.com",
+    "status": "Success"
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-07-09T08:31:53.431Z",
+    "user": "Super Admin",
+    "userRole": "Super Admin",
+    "eventType": "Login",
+    "description": "Staff member logged in successfully: admineducert@gmail.com",
+    "status": "Success"
+  }
+]

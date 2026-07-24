@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "New Applications Awaiting",
+    "message": "18 new applications awaiting review inside the CRM queue.",
+    "priority": "High",
+    "category": "Admissions",
+    "assignedRole": "Admissions Officer",
+    "createdAt": "2026-07-08T16:10:34.379Z",
+    "status": "Unread"
+  },
+  {
+    "id": 2,
+    "title": "NYSC Orientation Event",
+    "message": "NYSC orientation begins tomorrow morning at Lagos State Secretariat camp.",
+    "priority": "Critical",
+    "category": "Admissions",
+    "assignedRole": "All",
+    "createdAt": "2026-07-08T14:40:34.379Z",
+    "status": "Unread"
+  },
+  {
+    "id": 3,
+    "title": "Bus Route A at Capacity",
+    "message": "Bus Route A has reached 100% seating occupancy limit.",
+    "priority": "High",
+    "category": "Transportation",
+    "assignedRole": "Operations Officer",
+    "createdAt": "2026-07-08T13:40:34.379Z",
+    "status": "Unread"
+  },
+  {
+    "id": 4,
+    "title": "Opportunity Expirations",
+    "message": "Three career hub job opportunities are expiring today.",
+    "priority": "Medium",
+    "category": "Careers",
+    "assignedRole": "Career Officer",
+    "createdAt": "2026-07-08T10:40:34.379Z",
+    "status": "Unread"
+  },
+  {
+    "id": 5,
+    "title": "Incomplete Applications",
+    "message": "Five applicants submitted forms with missing credentials/laptop flags.",
+    "priority": "High",
+    "category": "Admissions",
+    "assignedRole": "Admissions Officer",
+    "createdAt": "2026-07-08T06:40:34.379Z",
+    "status": "Unread"
+  },
+  {
+    "id": 6,
+    "title": "Employer Follow-Up Needed",
+    "message": "Two corporate partner employers require immediate follow-up on resumes sent.",
+    "priority": "Medium",
+    "category": "Careers",
+    "assignedRole": "Career Officer",
+    "createdAt": "2026-07-08T04:40:34.379Z",
+    "status": "Unread"
+  },
+  {
+    "id": 7,
+    "title": "Staff Password Reset Pending",
+    "message": "Staff password reset is pending authorization for newly added admissions assistant.",
+    "priority": "High",
+    "category": "Security",
+    "assignedRole": "Super Admin",
+    "createdAt": "2026-07-08T00:00:34.379Z",
+    "status": "Unread"
+  },
+  {
+    "id": 8,
+    "title": "Monthly Performance Report",
+    "message": "The monthly administrative summary report is compiled and ready for review.",
+    "priority": "Low",
+    "category": "General",
+    "assignedRole": "All",
+    "createdAt": "2026-07-07T20:40:34.379Z",
+    "status": "Unread"
+  },
+  {
+    "id": 9,
+    "title": "Database Backup Complete",
+    "message": "Automatic incremental cloud database backup completed successfully (Olatech Cloud MySQL).",
+    "priority": "Low",
+    "category": "Maintenance",
+    "assignedRole": "Super Admin",
+    "createdAt": "2026-07-07T16:40:34.379Z",
+    "status": "Unread"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Orientation Phase 1 Briefing",
+    "category": "Orientation",
+    "date": "2026-07-09",
+    "time": "09:00 AM",
+    "description": "General orientation and kit allocations for newly approved learning candidates.",
+    "department": "All"
+  },
+  {
+    "id": 2,
+    "title": "Python & React Boot Camp Intensive",
+    "category": "Training",
+    "date": "2026-07-15",
+    "time": "10:00 AM",
+    "description": "Technical training curriculum kick-off seminar in the main Olatech lecture hall.",
+    "department": "Operations"
+  },
+  {
+    "id": 3,
+    "title": "HackFest 2026 Developer Hackathon",
+    "category": "Hackathons",
+    "date": "2026-08-07",
+    "time": "08:00 AM",
+    "description": "Annual hackathon competition sponsored by international tech mentors.",
+    "department": "All"
+  },
+  {
+    "id": 4,
+    "title": "Decagon Corporate Visit & Placement Prep",
+    "category": "Employer visits",
+    "date": "2026-07-08",
+    "time": "01:00 PM",
+    "description": "Executive recruiters from Decagon visiting for placement assessments.",
+    "department": "Careers"
+  },
+  {
+    "id": 5,
+    "title": "Chinedu mock technical interview",
+    "category": "Interviews",
+    "date": "2026-07-08",
+    "time": "11:30 AM",
+    "description": "Mock code-review and algorithm whiteboard practice with top career coaches.",
+    "department": "Careers"
+  },
+  {
+    "id": 6,
+    "title": "Admissions Screening Committee Sync",
+    "category": "Meetings",
+    "date": "2026-07-08",
+    "time": "03:00 PM",
+    "description": "Reviewing enrollment queues, verification bottlenecks and batch approvals.",
+    "department": "Admissions"
+  },
+  {
+    "id": 7,
+    "title": "Lagos Route B Commute Bus Run",
+    "category": "Bus schedules",
+    "date": "2026-07-08",
+    "time": "07:30 AM",
+    "description": "Standard shuttle dispatch from Maryland Bus Terminal to Olatech labs.",
+    "department": "Operations"
+  },
+  {
+    "id": 8,
+    "title": "Bi-weekly general staff review",
+    "category": "Staff meetings",
+    "date": "2026-07-09",
+    "time": "04:00 PM",
+    "description": "General review of KPIs, ticketing speeds and platform optimizations.",
+    "department": "All"
+  }
+]

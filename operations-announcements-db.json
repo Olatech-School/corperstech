@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Public Holiday Notice: Office Closed Next Monday",
+    "content": "Please be informed that the Olatech Administrative Command Center and learning labs will remain closed next Monday in observance of the Federal NYSC Co-op Public Holiday. Commute buses will resume on Tuesday.",
+    "priority": "Normal",
+    "author": "Super Admin",
+    "createdAt": "2026-07-06T16:40:35.263Z"
+  },
+  {
+    "id": 2,
+    "title": "Critical Password Security Updates Notice",
+    "content": "As part of our continuous system hardening audits, all Operations and Support staff are required to renew their platform passcodes in the settings menu by Friday. Clear cache before logging back in.",
+    "priority": "Urgent",
+    "author": "Super Admin",
+    "createdAt": "2026-07-08T04:40:35.263Z"
+  }
+]

@@ -1,0 +1,484 @@
+[
+  {
+    "id": 106,
+    "jobTitle": "Junior Python & Data Analyst",
+    "description": "Build clean reporting pipelines, data processing templates, and automate CSV ingestions using Python scripting libraries (Pandas, Numpy). Support senior business intelligence agents.",
+    "location": "Remote",
+    "remoteStatus": "Remote",
+    "salary": "₦150,000 / month",
+    "experienceLevel": "Entry-level",
+    "requiredSkills": "Python, SQL, Pandas, Excel",
+    "officialUrl": "https://decagon.com/careers/python-analyst",
+    "applicationDeadline": "September 02, 2026",
+    "confidenceScore": 0.85,
+    "duplicateHash": "decagonlabs-juniorpythondataanalyst",
+    "sourceId": 1,
+    "employerId": 5,
+    "categoryId": 4,
+    "qualityScore": 100,
+    "qualityGrade": "Excellent",
+    "qualityDetails": "{\"trustedEmployer\":true,\"officialCareerWebsite\":true,\"salaryTransparency\":true,\"graduateFriendliness\":true,\"remoteFlexibility\":true,\"applicationSimplicity\":true,\"technologyRelevance\":true,\"deadlineAvailability\":true}",
+    "discoveryDate": "2026-07-24T12:26:45.439Z",
+    "source": {
+      "id": 1,
+      "name": "LinkedIn Tech Jobs Portal",
+      "url": "https://linkedin.com/jobs",
+      "isActive": true,
+      "createdAt": "2026-07-23T13:36:11.651Z",
+      "updatedAt": "2026-07-23T13:36:11.651Z"
+    },
+    "employer": {
+      "id": 5,
+      "name": "Verified Employer",
+      "website": ""
+    },
+    "category": {
+      "id": 4,
+      "name": "Remote Jobs"
+    },
+    "verification": {
+      "opportunityId": 106,
+      "isActivePage": true,
+      "isValidDeadline": true,
+      "isTrustedSource": true,
+      "isDuplicate": false,
+      "verifiedCategory": "Remote Jobs",
+      "verifiedTechnology": "Python Programming",
+      "verificationStatus": "Passed",
+      "confidenceScore": 0.85,
+      "notes": "Passed structural ingestion validation.",
+      "lastVerificationDate": "2026-07-24T12:26:45.450Z"
+    },
+    "publication": {
+      "opportunityId": 106,
+      "publicationStatus": "Verified",
+      "publishDate": "2026-07-24T12:26:45.439Z",
+      "syndicatedPlatforms": "[\"CorpersTech Portal\"]",
+      "notificationSent": true
+    },
+    "changeLogs": [],
+    "duplicateHistory": [],
+    "timelineEvents": [
+      {
+        "id": 1,
+        "opportunityId": 106,
+        "stage": "Discovered",
+        "description": "Opportunity discovered via LinkedIn Tech Jobs Portal. Confident Match Score: 85%.",
+        "createdAt": "2026-07-24T12:26:45.439Z"
+      },
+      {
+        "id": 2,
+        "opportunityId": 106,
+        "stage": "Verified",
+        "description": "AI Verification checklist run. Result: Verified & Trusted. Confidence: 85%.",
+        "createdAt": "2026-07-24T12:26:45.439Z"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "jobTitle": "Graduate Cybersecurity Auditor",
+    "description": "Excellent trainee role for passionate computer science graduates. Review banking network logs, monitor system intrusions, write compliance reviews, and learn security orchestration.",
+    "location": "Abuja (On-site)",
+    "remoteStatus": "On-site",
+    "salary": "₦220,000 / month",
+    "experienceLevel": "Graduate Trainee",
+    "requiredSkills": "Cybersecurity, Networking, Linux, Wireshark",
+    "officialUrl": "https://sterling.ng/careers/cyber-audit",
+    "applicationDeadline": "August 15, 2026",
+    "confidenceScore": 0.85,
+    "duplicateHash": "sterlingbankplc-graduatecybersecurityauditor",
+    "sourceId": 1,
+    "employerId": 1,
+    "categoryId": 1,
+    "qualityScore": 87.5,
+    "qualityGrade": "Very Good",
+    "qualityDetails": "{\"trustedEmployer\":true,\"officialCareerWebsite\":true,\"salaryTransparency\":true,\"graduateFriendliness\":true,\"remoteFlexibility\":false,\"applicationSimplicity\":true,\"technologyRelevance\":true,\"deadlineAvailability\":true}",
+    "discoveryDate": "2026-07-24T12:26:34.663Z",
+    "source": {
+      "id": 1,
+      "name": "LinkedIn Tech Jobs Portal",
+      "url": "https://linkedin.com/jobs",
+      "isActive": true,
+      "createdAt": "2026-07-23T13:36:11.651Z",
+      "updatedAt": "2026-07-23T13:36:11.651Z"
+    },
+    "employer": {
+      "id": 1,
+      "name": "Sterling Bank Plc",
+      "website": "https://sterling.ng",
+      "industry": "Fintech & Banking",
+      "country": "Nigeria",
+      "technologyAreas": "DevOps & Cloud, Linux, AWS basics, Docker, Python or Go, CI/CD pipelines",
+      "opportunitiesPublished": 1,
+      "currentOpenRoles": 1,
+      "remoteHiringRatio": 0,
+      "graduateHiringRatio": 1,
+      "confidenceRating": 4.7,
+      "averageHiringFrequency": "Monthly"
+    },
+    "category": {
+      "id": 1,
+      "name": "Graduate Programs"
+    },
+    "verification": {
+      "opportunityId": 105,
+      "isActivePage": true,
+      "isValidDeadline": true,
+      "isTrustedSource": true,
+      "isDuplicate": false,
+      "verifiedCategory": "Graduate Programs",
+      "verifiedTechnology": "Cybersecurity",
+      "verificationStatus": "Passed",
+      "confidenceScore": 0.85,
+      "notes": "Passed structural ingestion validation.",
+      "lastVerificationDate": "2026-07-24T12:26:34.962Z"
+    },
+    "publication": {
+      "opportunityId": 105,
+      "publicationStatus": "Verified",
+      "publishDate": "2026-07-24T12:26:34.663Z",
+      "syndicatedPlatforms": "[\"CorpersTech Portal\"]",
+      "notificationSent": true
+    },
+    "changeLogs": [],
+    "duplicateHistory": [],
+    "timelineEvents": [
+      {
+        "id": 1,
+        "opportunityId": 105,
+        "stage": "Discovered",
+        "description": "Opportunity discovered via LinkedIn Tech Jobs Portal. Confident Match Score: 85%.",
+        "createdAt": "2026-07-24T12:26:34.663Z"
+      },
+      {
+        "id": 2,
+        "opportunityId": 105,
+        "stage": "Verified",
+        "description": "AI Verification checklist run. Result: Verified & Trusted. Confidence: 85%.",
+        "createdAt": "2026-07-24T12:26:34.663Z"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "jobTitle": "Junior Devops Associate",
+    "description": "Join Interswitch as a Devops Associate. You will support infrastructure builds, automated deployments, CI/CD pipelines, and cloud setup in AWS under experienced supervisors.",
+    "location": "Lagos (Hybrid)",
+    "remoteStatus": "Hybrid",
+    "salary": "₦180,000 / month",
+    "experienceLevel": "Internship",
+    "requiredSkills": "Git, Docker, Linux, CI/CD",
+    "officialUrl": "https://interswitchgroup.com/careers/junior-devops",
+    "applicationDeadline": "July 28, 2026",
+    "confidenceScore": 0.85,
+    "duplicateHash": "interswitchgroup-juniordevopsassociate",
+    "sourceId": 1,
+    "employerId": 2,
+    "categoryId": 2,
+    "qualityScore": 100,
+    "qualityGrade": "Excellent",
+    "qualityDetails": "{\"trustedEmployer\":true,\"officialCareerWebsite\":true,\"salaryTransparency\":true,\"graduateFriendliness\":true,\"remoteFlexibility\":true,\"applicationSimplicity\":true,\"technologyRelevance\":true,\"deadlineAvailability\":true}",
+    "discoveryDate": "2026-07-24T12:26:26.403Z",
+    "source": {
+      "id": 1,
+      "name": "LinkedIn Tech Jobs Portal",
+      "url": "https://linkedin.com/jobs",
+      "isActive": true,
+      "createdAt": "2026-07-23T13:36:11.651Z",
+      "updatedAt": "2026-07-23T13:36:11.651Z"
+    },
+    "employer": {
+      "id": 2,
+      "name": "Interswitch Group",
+      "website": "https://interswitchgroup.com",
+      "industry": "Fintech & Payments",
+      "country": "Nigeria",
+      "technologyAreas": "Frontend Development, React, TypeScript, Tailwind CSS, REST APIs, Git",
+      "opportunitiesPublished": 1,
+      "currentOpenRoles": 1,
+      "remoteHiringRatio": 0,
+      "graduateHiringRatio": 0,
+      "confidenceRating": 4.5,
+      "averageHiringFrequency": "Monthly"
+    },
+    "category": {
+      "id": 2,
+      "name": "Internships"
+    },
+    "verification": {
+      "opportunityId": 104,
+      "isActivePage": true,
+      "isValidDeadline": true,
+      "isTrustedSource": true,
+      "isDuplicate": false,
+      "verifiedCategory": "Internships",
+      "verifiedTechnology": "DevOps",
+      "verificationStatus": "Passed",
+      "confidenceScore": 0.85,
+      "notes": "Passed structural ingestion validation.",
+      "lastVerificationDate": "2026-07-24T12:26:26.413Z"
+    },
+    "publication": {
+      "opportunityId": 104,
+      "publicationStatus": "Verified",
+      "publishDate": "2026-07-24T12:26:26.403Z",
+      "syndicatedPlatforms": "[\"CorpersTech Portal\"]",
+      "notificationSent": true
+    },
+    "changeLogs": [],
+    "duplicateHistory": [],
+    "timelineEvents": [
+      {
+        "id": 1,
+        "opportunityId": 104,
+        "stage": "Discovered",
+        "description": "Opportunity discovered via LinkedIn Tech Jobs Portal. Confident Match Score: 85%.",
+        "createdAt": "2026-07-24T12:26:26.403Z"
+      },
+      {
+        "id": 2,
+        "opportunityId": 104,
+        "stage": "Verified",
+        "description": "AI Verification checklist run. Result: Verified & Trusted. Confidence: 85%.",
+        "createdAt": "2026-07-24T12:26:26.403Z"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "jobTitle": "Test Senior React Developer",
+    "description": "Professional placement opportunity at CorpersTech Labs.",
+    "location": "Lagos, Nigeria",
+    "remoteStatus": "Remote",
+    "salary": "₦4,000,000 - ₦6,000,000",
+    "experienceLevel": "Senior",
+    "requiredSkills": "React, TypeScript, Tailwind, Node.js",
+    "officialUrl": "https://corperstech.com.ng/careers/test",
+    "applicationDeadline": "2026-09-01",
+    "confidenceScore": 0.95,
+    "duplicateHash": "manual_1783061351962_4472",
+    "sourceId": 1,
+    "employerId": 4,
+    "categoryId": 2,
+    "qualityScore": 92,
+    "qualityGrade": "Excellent",
+    "qualityDetails": "{\"clarity\":\"High\",\"requirements\":\"Manual Placement Validated\"}",
+    "discoveryDate": "2026-07-03T06:49:11.966Z",
+    "source": {
+      "id": 1,
+      "name": "LinkedIn Tech Jobs Portal",
+      "url": "https://linkedin.com/jobs",
+      "isActive": true,
+      "createdAt": "2026-07-03T06:49:10.030Z",
+      "updatedAt": "2026-07-03T06:49:10.030Z"
+    },
+    "employer": {
+      "id": 4,
+      "name": "CorpersTech Labs",
+      "website": "https://corperstech.com.ng/careers/test",
+      "industry": "Technology",
+      "country": "Nigeria",
+      "technologyAreas": "Software Engineering",
+      "opportunitiesPublished": 0,
+      "currentOpenRoles": 0,
+      "remoteHiringRatio": 0.5,
+      "graduateHiringRatio": 0.5,
+      "confidenceRating": 4.5,
+      "averageHiringFrequency": "Monthly"
+    },
+    "category": {
+      "id": 2,
+      "name": "Internships"
+    },
+    "verification": {
+      "opportunityId": 103,
+      "isActivePage": true,
+      "isValidDeadline": true,
+      "isTrustedSource": true,
+      "isDuplicate": false,
+      "verifiedCategory": "Internships",
+      "verifiedTechnology": "Software Engineering",
+      "verificationStatus": "Verified & Trusted",
+      "confidenceScore": 0.95,
+      "notes": "Verified via fallback intelligence engine",
+      "lastVerificationDate": "2026-07-03T06:49:11.966Z"
+    },
+    "publication": {
+      "opportunityId": 103,
+      "publicationStatus": "Published",
+      "publishedBy": "System AI Engine",
+      "publishDate": "2026-07-03T06:49:11.966Z",
+      "syndicatedPlatforms": "[\"CorpersTech Portal\"]",
+      "notificationSent": true
+    },
+    "changeLogs": [],
+    "duplicateHistory": [],
+    "timelineEvents": [
+      {
+        "id": 1,
+        "opportunityId": 103,
+        "stage": "Discovered",
+        "description": "Opportunity discovered via LinkedIn Tech Jobs Portal. Confident Match Score: 95%.",
+        "createdAt": "2026-07-03T06:49:11.966Z"
+      },
+      {
+        "id": 2,
+        "opportunityId": 103,
+        "stage": "Verified",
+        "description": "AI Verification checklist run. Result: Verified & Trusted. Confidence: 95%.",
+        "createdAt": "2026-07-03T06:49:11.966Z"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "jobTitle": "Graduate Trainee - Cloud & DevOps",
+    "description": "Sterling Bank is seeking passionate graduate engineers to join our cloud infrastructure and DevOps residency team. Intensive 12-month mentorship program.",
+    "location": "Lagos, Nigeria",
+    "remoteStatus": "Hybrid",
+    "salary": "₦3,500,000 - ₦4,500,000 per annum",
+    "experienceLevel": "Entry-Level / Graduate",
+    "requiredSkills": "Linux, AWS basics, Docker, Python or Go, CI/CD pipelines",
+    "officialUrl": "https://sterling.ng/careers/grad-trainee-devops",
+    "applicationDeadline": "2026-08-15",
+    "confidenceScore": 0.94,
+    "duplicateHash": "sterling_devops_grad_2026",
+    "sourceId": 3,
+    "employerId": 1,
+    "categoryId": 1,
+    "qualityScore": 92.5,
+    "qualityGrade": "Excellent",
+    "qualityDetails": "{\"clarity\": \"High\", \"requirements\": \"Specific\"}",
+    "discoveryDate": "2026-07-01T06:49:10.030Z",
+    "source": {
+      "id": 3,
+      "name": "Sterling Bank Graduate Careers",
+      "url": "https://sterling.ng/careers"
+    },
+    "employer": {
+      "id": 1,
+      "name": "Sterling Bank Plc",
+      "website": "https://sterling.ng",
+      "industry": "Fintech & Banking"
+    },
+    "category": {
+      "id": 1,
+      "name": "Graduate Programs"
+    },
+    "verification": {
+      "opportunityId": 101,
+      "isActivePage": true,
+      "isValidDeadline": true,
+      "isTrustedSource": true,
+      "isDuplicate": false,
+      "verifiedCategory": "Graduate Programs",
+      "verifiedTechnology": "DevOps & Cloud",
+      "verificationStatus": "Verified & Trusted",
+      "confidenceScore": 0.94,
+      "notes": "Official portal verified. Active opening.",
+      "lastVerificationDate": "2026-07-02T06:49:10.030Z"
+    },
+    "publication": {
+      "opportunityId": 101,
+      "publicationStatus": "Published",
+      "publishedBy": "System AI Engine",
+      "publishDate": "2026-07-02T06:49:10.030Z",
+      "syndicatedPlatforms": "[\"CorpersTech Portal\", \"Telegram Notify\"]",
+      "notificationSent": true
+    },
+    "changeLogs": [],
+    "duplicateHistory": [],
+    "timelineEvents": [
+      {
+        "id": 1,
+        "opportunityId": 101,
+        "stage": "Discovered",
+        "description": "Opportunity discovered via Sterling Bank Graduate Careers. Confident Match Score: 94%.",
+        "createdAt": "2026-07-01T06:49:10.030Z"
+      },
+      {
+        "id": 2,
+        "opportunityId": 101,
+        "stage": "Verified",
+        "description": "AI Verification checklist run. Result: Verified & Trusted. Confidence: 94%. Notes: Official portal verified.",
+        "createdAt": "2026-07-02T06:49:10.030Z"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "jobTitle": "Junior Frontend Engineer (React/TypeScript)",
+    "description": "Interswitch is hiring junior frontend engineers to build next-generation merchant checkout dashboards and payment gateways.",
+    "location": "Lagos, Nigeria",
+    "remoteStatus": "On-site",
+    "salary": "₦4,000,000 - ₦5,200,000 per annum",
+    "experienceLevel": "Junior (1-2 years)",
+    "requiredSkills": "React, TypeScript, Tailwind CSS, REST APIs, Git",
+    "officialUrl": "https://interswitchgroup.com/careers/jr-fe-eng",
+    "applicationDeadline": "2026-07-30",
+    "confidenceScore": 0.89,
+    "duplicateHash": "interswitch_fe_jr_2026",
+    "sourceId": 4,
+    "employerId": 2,
+    "categoryId": 3,
+    "qualityScore": 88,
+    "qualityGrade": "Good",
+    "qualityDetails": "{\"clarity\": \"High\", \"requirements\": \"Standard\"}",
+    "discoveryDate": "2026-06-29T06:49:10.030Z",
+    "source": {
+      "id": 4,
+      "name": "Interswitch Internship Hub",
+      "url": "https://interswitchgroup.com/careers"
+    },
+    "employer": {
+      "id": 2,
+      "name": "Interswitch Group",
+      "website": "https://interswitchgroup.com",
+      "industry": "Fintech & Payments"
+    },
+    "category": {
+      "id": 3,
+      "name": "Entry-Level Jobs"
+    },
+    "verification": {
+      "opportunityId": 102,
+      "isActivePage": true,
+      "isValidDeadline": true,
+      "isTrustedSource": true,
+      "isDuplicate": false,
+      "verifiedCategory": "Entry-Level Jobs",
+      "verifiedTechnology": "Frontend Development",
+      "verificationStatus": "Verified & Trusted",
+      "confidenceScore": 0.89,
+      "notes": "Active career page. Valid application link.",
+      "lastVerificationDate": "2026-06-30T06:49:10.030Z"
+    },
+    "publication": {
+      "opportunityId": 102,
+      "publicationStatus": "Published",
+      "publishedBy": "Super Admin",
+      "publishDate": "2026-06-30T06:49:10.030Z",
+      "syndicatedPlatforms": "[\"CorpersTech Portal\"]",
+      "notificationSent": true
+    },
+    "changeLogs": [],
+    "duplicateHistory": [],
+    "timelineEvents": [
+      {
+        "id": 3,
+        "opportunityId": 102,
+        "stage": "Discovered",
+        "description": "Opportunity discovered via Interswitch Internship Hub. Confident Match Score: 89%.",
+        "createdAt": "2026-06-29T06:49:10.030Z"
+      },
+      {
+        "id": 4,
+        "opportunityId": 102,
+        "stage": "Verified",
+        "description": "AI Verification checklist run. Result: Verified & Trusted.",
+        "createdAt": "2026-06-30T06:49:10.030Z"
+      }
+    ]
+  }
+]

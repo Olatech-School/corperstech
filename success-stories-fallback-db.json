@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Samuel Okon",
+    "nyscBatch": "2025 Batch A Stream I",
+    "courseEnrolled": "Full Stack Web Development",
+    "currentRole": "Junior Frontend Engineer",
+    "company": "Moniepoint Nigeria",
+    "story": "Olatech School gave me the structured React and Tailwind training that transformed my NYSC year. Within 4 months of completing my capstone project, I secured a full-time role at Moniepoint!",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+    "linkedInUrl": "https://linkedin.com/in/samuelokon-corpers",
+    "createdAt": "2026-07-08T16:39:09.830Z"
+  },
+  {
+    "id": 2,
+    "name": "Amina Aliyu",
+    "nyscBatch": "2025 Batch B Stream I",
+    "courseEnrolled": "Data Analytics & Business Intelligence",
+    "currentRole": "Data Analyst",
+    "company": "Access Bank Plc",
+    "story": "Learning SQL and Power BI at Olatech while serving in Lagos was the best decision of my life. The career coaching and CV reviews directly prepared me for my technical interviews.",
+    "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=80",
+    "linkedInUrl": "https://linkedin.com/in/aminaaliyu-data",
+    "createdAt": "2026-07-08T16:39:09.830Z"
+  },
+  {
+    "id": 3,
+    "name": "Yusuf Kolawole",
+    "nyscBatch": "2025 Batch A Stream II",
+    "courseEnrolled": "Cybersecurity Operations",
+    "currentRole": "SOC Analyst Trainee",
+    "company": "Sterling Bank",
+    "story": "The hands-on lab audits using Wireshark and SIEM tools made me stand out from hundreds of applicants during corporate placement rounds.",
+    "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+    "linkedInUrl": "https://linkedin.com/in/yusufkolawole-sec",
+    "createdAt": "2026-07-08T16:39:09.830Z"
+  }
+]

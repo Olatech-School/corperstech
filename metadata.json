@@ -1,0 +1,6 @@
+{
+  "name": "CorpersTech",
+  "description": "A modern digital platform to help Nigerian NYSC Corps Members learn high-income technology skills during their service year.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Review pending applications",
+    "status": "Pending",
+    "assignedRole": "Admissions Officer",
+    "assignedUser": "Unassigned",
+    "deadline": "Today, 5:00 PM",
+    "priority": "High"
+  },
+  {
+    "id": 2,
+    "title": "Approve applicants",
+    "status": "Pending",
+    "assignedRole": "Admissions Officer",
+    "assignedUser": "Unassigned",
+    "deadline": "Today, 6:00 PM",
+    "priority": "High"
+  },
+  {
+    "id": 3,
+    "title": "Publish opportunities",
+    "status": "Completed",
+    "assignedRole": "Career Officer",
+    "assignedUser": "Unassigned",
+    "deadline": "Completed 2h ago",
+    "priority": "Medium"
+  },
+  {
+    "id": 4,
+    "title": "Confirm transport list",
+    "status": "Pending",
+    "assignedRole": "Operations Officer",
+    "assignedUser": "Unassigned",
+    "deadline": "Tomorrow, 9:00 AM",
+    "priority": "High"
+  },
+  {
+    "id": 5,
+    "title": "Prepare orientation logistics",
+    "status": "Pending",
+    "assignedRole": "Operations Officer",
+    "assignedUser": "Unassigned",
+    "deadline": "In 2 days",
+    "priority": "Critical"
+  },
+  {
+    "id": 6,
+    "title": "Review employer profiles",
+    "status": "Completed",
+    "assignedRole": "Career Officer",
+    "assignedUser": "Unassigned",
+    "deadline": "Completed yesterday",
+    "priority": "Low"
+  },
+  {
+    "id": 7,
+    "title": "Reply to enquiries",
+    "status": "Pending",
+    "assignedRole": "Support Officer",
+    "assignedUser": "Unassigned",
+    "deadline": "Today, 4:00 PM",
+    "priority": "Medium"
+  },
+  {
+    "id": 8,
+    "title": "Generate weekly operational reports",
+    "status": "Overdue",
+    "assignedRole": "Super Admin",
+    "assignedUser": "Unassigned",
+    "deadline": "2 days ago",
+    "priority": "High"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Olatech Standard ATS Resume Template (2026)",
+    "type": "Template",
+    "category": "CV & Resume",
+    "description": "Verified ATS-compliant resume structure specifically formatted for Nigerian youth corps members targeting tech placements.",
+    "fileUrl": "/downloads/ats-resume-template-2026.docx",
+    "downloadCount": 420,
+    "createdAt": "2026-07-08T16:39:09.830Z"
+  },
+  {
+    "id": 2,
+    "title": "Technical Interview Mastery Cheat Sheet",
+    "type": "Guide",
+    "category": "Interview Prep",
+    "description": "Essential behavioral and technical questions asked by top Nigerian fintechs (Moniepoint, Paystack, Sterling Bank).",
+    "fileUrl": "/downloads/technical-interview-guide.pdf",
+    "downloadCount": 315,
+    "createdAt": "2026-07-08T16:39:09.830Z"
+  },
+  {
+    "id": 3,
+    "title": "NYSC CDS Capstone Project Guide",
+    "type": "Handbook",
+    "category": "Projects",
+    "description": "How to architect and document your community development service project as a portfolio centerpiece.",
+    "fileUrl": "/downloads/nysc-capstone-guide.pdf",
+    "downloadCount": 290,
+    "createdAt": "2026-07-08T16:39:09.830Z"
+  }
+]
