@@ -132,7 +132,9 @@ export class EnrollmentRepository {
         },
       });
     } catch (error) {
-      const list = loadFallbackData();
+  console.error('❌ PRISMA ENROLLMENT CREATE FAILED:', error);
+  throw error;
+}
       
       // Enforce unique email check
       const emailExists = list.some(item => item.email.toLowerCase() === data.email.toLowerCase());
