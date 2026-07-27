@@ -419,10 +419,10 @@ export default function AdmissionsView() {
       pickupLocations: ['Lagos Mainland (Yaba Tech Hub)', 'Lagos Island (Marina Stop)', 'Ikeja (Allen Avenue)', 'Abuja (Central Business District)', 'Abuja (Gwarinpa Estate)', 'Port Harcourt (GRA Phase II)'],
       registrationOpen: true,
       supportPhone: '+2347075958413',
-      supportEmail: 'support@corperstech.com.ng',
+      supportEmail: 'support@olatechschoolofprogramming@gmail.com',
       socialTwitter: '@CorpersTech',
       socialLinkedin: 'CorpersTech-Olatech',
-      campusAddress: 'Olatech Tech Hub, Lagos, Nigeria',
+      campusAddress: 'Olatech School of Programming, PortHarcourt, Nigeria',
       busDriverName: 'Yusuf Kolawole',
       busPlateNo: 'LAG-419-OLA',
       busDepartureTime: '07:30 AM'
@@ -1835,29 +1835,6 @@ export default function AdmissionsView() {
             <div className="text-center pt-2">
               <span className="text-xs font-extrabold text-slate-400 tracking-wider block">Olatech Staff Access Only</span>
             </div>
-
-            {/* Quick Demo Logins */}
-            <div className="pt-4 border-t border-slate-100">
-              <span className="text-[10px] font-extrabold text-slate-400 uppercase tracking-wider block mb-3">Quick Staff Portals (One-Click Demo Authentication):</span>
-              <div className="grid grid-cols-2 gap-2 text-[11px]">
-                <button 
-                  type="button" 
-                  onClick={() => { setLoginEmail('admineducert@gmail.com'); setLoginPassword('admin3041educert'); }}
-                  className="p-2 bg-emerald-50 hover:bg-emerald-100/80 border border-emerald-100 text-emerald-800 font-bold rounded-xl transition-all cursor-pointer text-left"
-                >
-                  <span className="block font-black text-[9px] text-emerald-600/85">SUPER ADMIN</span>
-                  Yusuf Ola (Educert)
-                </button>
-                <button 
-                  type="button" 
-                  onClick={() => { setLoginEmail('admissions@olatech.com'); setLoginPassword('admissions123'); }}
-                  className="p-2 bg-blue-50 hover:bg-blue-100/80 border border-blue-100 text-blue-800 font-bold rounded-xl transition-all cursor-pointer text-left"
-                >
-                  <span className="block font-black text-[9px] text-blue-600/85">ADMISSIONS</span>
-                  Aisha Bello
-                </button>
-              </div>
-            </div>
           </form>
         </motion.div>
       </div>
@@ -2350,8 +2327,8 @@ export default function AdmissionsView() {
                     <div className="flex items-start gap-2 text-xs text-slate-300">
                       <Calendar size={14} className="mt-0.5 text-emerald-400" />
                       <div>
-                        <p className="font-bold text-white">Friday, July 10, 2026</p>
-                        <p className="text-[10px] text-slate-400">Time: 09:00 AM Prompt (GMT+1)</p>
+                        <p className="font-bold text-white">Coming Soon!!!</p>
+                        <p className="text-[10px] text-slate-400">Time: 00:00 AM Prompt (GMT+1)</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-2 text-xs text-slate-300">

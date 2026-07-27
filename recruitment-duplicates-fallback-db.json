@@ -1,5 +1,365 @@
 [
   {
+    "id": 163,
+    "opportunityId": 104,
+    "duplicateTitle": "Junior Devops Associate",
+    "duplicateCompany": "Interswitch Group",
+    "duplicateUrl": "https://interswitchgroup.com/careers/junior-devops",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:44:00.810Z"
+  },
+  {
+    "id": 162,
+    "opportunityId": 106,
+    "duplicateTitle": "Junior Python & Data Analyst",
+    "duplicateCompany": "Decagon Labs",
+    "duplicateUrl": "https://decagon.com/careers/python-analyst",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:43:51.866Z"
+  },
+  {
+    "id": 161,
+    "opportunityId": 106,
+    "duplicateTitle": "Junior Python & Data Analyst",
+    "duplicateCompany": "Decagon Labs",
+    "duplicateUrl": "https://decagon.com/careers/python-analyst",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:43:51.287Z"
+  },
+  {
+    "id": 160,
+    "opportunityId": 105,
+    "duplicateTitle": "Graduate Cybersecurity Auditor",
+    "duplicateCompany": "Sterling Bank Plc",
+    "duplicateUrl": "https://sterling.ng/careers/cyber-audit",
+    "reason": "Ignored lower quality duplicate version (Score: 87.5 vs 87.5)",
+    "mergedAt": "2026-07-26T13:43:48.468Z"
+  },
+  {
+    "id": 159,
+    "opportunityId": 105,
+    "duplicateTitle": "Graduate Cybersecurity Auditor",
+    "duplicateCompany": "Sterling Bank Plc",
+    "duplicateUrl": "https://sterling.ng/careers/cyber-audit",
+    "reason": "Ignored lower quality duplicate version (Score: 87.5 vs 87.5)",
+    "mergedAt": "2026-07-26T13:43:47.485Z"
+  },
+  {
+    "id": 158,
+    "opportunityId": 104,
+    "duplicateTitle": "Junior Devops Associate",
+    "duplicateCompany": "Interswitch Group",
+    "duplicateUrl": "https://interswitchgroup.com/careers/junior-devops",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:43:45.077Z"
+  },
+  {
+    "id": 157,
+    "opportunityId": 104,
+    "duplicateTitle": "Junior Devops Associate",
+    "duplicateCompany": "Interswitch Group",
+    "duplicateUrl": "https://interswitchgroup.com/careers/junior-devops",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:43:43.291Z"
+  },
+  {
+    "id": 156,
+    "opportunityId": 106,
+    "duplicateTitle": "Junior Python & Data Analyst",
+    "duplicateCompany": "Decagon Labs",
+    "duplicateUrl": "https://decagon.com/careers/python-analyst",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:43:35.706Z"
+  },
+  {
+    "id": 155,
+    "opportunityId": 106,
+    "duplicateTitle": "Junior Python & Data Analyst",
+    "duplicateCompany": "Decagon Labs",
+    "duplicateUrl": "https://decagon.com/careers/python-analyst",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:43:35.482Z"
+  },
+  {
+    "id": 154,
+    "opportunityId": 106,
+    "duplicateTitle": "Junior Python & Data Analyst",
+    "duplicateCompany": "Decagon Labs",
+    "duplicateUrl": "https://decagon.com/careers/python-analyst",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:43:33.734Z"
+  },
+  {
+    "id": 153,
+    "opportunityId": 105,
+    "duplicateTitle": "Graduate Cybersecurity Auditor",
+    "duplicateCompany": "Sterling Bank Plc",
+    "duplicateUrl": "https://sterling.ng/careers/cyber-audit",
+    "reason": "Ignored lower quality duplicate version (Score: 87.5 vs 87.5)",
+    "mergedAt": "2026-07-26T13:43:31.780Z"
+  },
+  {
+    "id": 152,
+    "opportunityId": 105,
+    "duplicateTitle": "Graduate Cybersecurity Auditor",
+    "duplicateCompany": "Sterling Bank Plc",
+    "duplicateUrl": "https://sterling.ng/careers/cyber-audit",
+    "reason": "Ignored lower quality duplicate version (Score: 87.5 vs 87.5)",
+    "mergedAt": "2026-07-26T13:43:31.689Z"
+  },
+  {
+    "id": 151,
+    "opportunityId": 105,
+    "duplicateTitle": "Graduate Cybersecurity Auditor",
+    "duplicateCompany": "Sterling Bank Plc",
+    "duplicateUrl": "https://sterling.ng/careers/cyber-audit",
+    "reason": "Ignored lower quality duplicate version (Score: 87.5 vs 87.5)",
+    "mergedAt": "2026-07-26T13:43:29.016Z"
+  },
+  {
+    "id": 150,
+    "opportunityId": 104,
+    "duplicateTitle": "Junior Devops Associate",
+    "duplicateCompany": "Interswitch Group",
+    "duplicateUrl": "https://interswitchgroup.com/careers/junior-devops",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:43:27.854Z"
+  },
+  {
+    "id": 149,
+    "opportunityId": 104,
+    "duplicateTitle": "Junior Devops Associate",
+    "duplicateCompany": "Interswitch Group",
+    "duplicateUrl": "https://interswitchgroup.com/careers/junior-devops",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:43:27.679Z"
+  },
+  {
+    "id": 148,
+    "opportunityId": 104,
+    "duplicateTitle": "Junior Devops Associate",
+    "duplicateCompany": "Interswitch Group",
+    "duplicateUrl": "https://interswitchgroup.com/careers/junior-devops",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:43:26.046Z"
+  },
+  {
+    "id": 147,
+    "opportunityId": 106,
+    "duplicateTitle": "Junior Python & Data Analyst",
+    "duplicateCompany": "Decagon Labs",
+    "duplicateUrl": "https://decagon.com/careers/python-analyst",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:43:17.306Z"
+  },
+  {
+    "id": 146,
+    "opportunityId": 105,
+    "duplicateTitle": "Graduate Cybersecurity Auditor",
+    "duplicateCompany": "Sterling Bank Plc",
+    "duplicateUrl": "https://sterling.ng/careers/cyber-audit",
+    "reason": "Ignored lower quality duplicate version (Score: 87.5 vs 87.5)",
+    "mergedAt": "2026-07-26T13:43:12.666Z"
+  },
+  {
+    "id": 145,
+    "opportunityId": 106,
+    "duplicateTitle": "Junior Python & Data Analyst",
+    "duplicateCompany": "Decagon Labs",
+    "duplicateUrl": "https://decagon.com/careers/python-analyst",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:43:12.323Z"
+  },
+  {
+    "id": 144,
+    "opportunityId": 104,
+    "duplicateTitle": "Junior Devops Associate",
+    "duplicateCompany": "Interswitch Group",
+    "duplicateUrl": "https://interswitchgroup.com/careers/junior-devops",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:43:06.984Z"
+  },
+  {
+    "id": 143,
+    "opportunityId": 105,
+    "duplicateTitle": "Graduate Cybersecurity Auditor",
+    "duplicateCompany": "Sterling Bank Plc",
+    "duplicateUrl": "https://sterling.ng/careers/cyber-audit",
+    "reason": "Ignored lower quality duplicate version (Score: 87.5 vs 87.5)",
+    "mergedAt": "2026-07-26T13:43:06.165Z"
+  },
+  {
+    "id": 142,
+    "opportunityId": 104,
+    "duplicateTitle": "Junior Devops Associate",
+    "duplicateCompany": "Interswitch Group",
+    "duplicateUrl": "https://interswitchgroup.com/careers/junior-devops",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:43:02.802Z"
+  },
+  {
+    "id": 141,
+    "opportunityId": 106,
+    "duplicateTitle": "Junior Python & Data Analyst",
+    "duplicateCompany": "Decagon Labs",
+    "duplicateUrl": "https://decagon.com/careers/python-analyst",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:42:56.742Z"
+  },
+  {
+    "id": 140,
+    "opportunityId": 106,
+    "duplicateTitle": "Junior Python & Data Analyst",
+    "duplicateCompany": "Decagon Labs",
+    "duplicateUrl": "https://decagon.com/careers/python-analyst",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:42:53.740Z"
+  },
+  {
+    "id": 139,
+    "opportunityId": 105,
+    "duplicateTitle": "Graduate Cybersecurity Auditor",
+    "duplicateCompany": "Sterling Bank Plc",
+    "duplicateUrl": "https://sterling.ng/careers/cyber-audit",
+    "reason": "Ignored lower quality duplicate version (Score: 87.5 vs 87.5)",
+    "mergedAt": "2026-07-26T13:42:47.426Z"
+  },
+  {
+    "id": 138,
+    "opportunityId": 105,
+    "duplicateTitle": "Graduate Cybersecurity Auditor",
+    "duplicateCompany": "Sterling Bank Plc",
+    "duplicateUrl": "https://sterling.ng/careers/cyber-audit",
+    "reason": "Ignored lower quality duplicate version (Score: 87.5 vs 87.5)",
+    "mergedAt": "2026-07-26T13:42:47.079Z"
+  },
+  {
+    "id": 137,
+    "opportunityId": 104,
+    "duplicateTitle": "Junior Devops Associate",
+    "duplicateCompany": "Interswitch Group",
+    "duplicateUrl": "https://interswitchgroup.com/careers/junior-devops",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:42:43.538Z"
+  },
+  {
+    "id": 136,
+    "opportunityId": 104,
+    "duplicateTitle": "Junior Devops Associate",
+    "duplicateCompany": "Interswitch Group",
+    "duplicateUrl": "https://interswitchgroup.com/careers/junior-devops",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:42:42.605Z"
+  },
+  {
+    "id": 135,
+    "opportunityId": 106,
+    "duplicateTitle": "Junior Python & Data Analyst",
+    "duplicateCompany": "Decagon Labs",
+    "duplicateUrl": "https://decagon.com/careers/python-analyst",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:42:35.658Z"
+  },
+  {
+    "id": 134,
+    "opportunityId": 105,
+    "duplicateTitle": "Graduate Cybersecurity Auditor",
+    "duplicateCompany": "Sterling Bank Plc",
+    "duplicateUrl": "https://sterling.ng/careers/cyber-audit",
+    "reason": "Ignored lower quality duplicate version (Score: 87.5 vs 87.5)",
+    "mergedAt": "2026-07-26T13:42:31.375Z"
+  },
+  {
+    "id": 133,
+    "opportunityId": 104,
+    "duplicateTitle": "Junior Devops Associate",
+    "duplicateCompany": "Interswitch Group",
+    "duplicateUrl": "https://interswitchgroup.com/careers/junior-devops",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:42:25.856Z"
+  },
+  {
+    "id": 132,
+    "opportunityId": 106,
+    "duplicateTitle": "Junior Python & Data Analyst",
+    "duplicateCompany": "Decagon Labs",
+    "duplicateUrl": "https://decagon.com/careers/python-analyst",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:42:23.262Z"
+  },
+  {
+    "id": 131,
+    "opportunityId": 105,
+    "duplicateTitle": "Graduate Cybersecurity Auditor",
+    "duplicateCompany": "Sterling Bank Plc",
+    "duplicateUrl": "https://sterling.ng/careers/cyber-audit",
+    "reason": "Ignored lower quality duplicate version (Score: 87.5 vs 87.5)",
+    "mergedAt": "2026-07-26T13:42:16.651Z"
+  },
+  {
+    "id": 130,
+    "opportunityId": 104,
+    "duplicateTitle": "Junior Devops Associate",
+    "duplicateCompany": "Interswitch Group",
+    "duplicateUrl": "https://interswitchgroup.com/careers/junior-devops",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:42:12.419Z"
+  },
+  {
+    "id": 129,
+    "opportunityId": 106,
+    "duplicateTitle": "Junior Python & Data Analyst",
+    "duplicateCompany": "Decagon Labs",
+    "duplicateUrl": "https://decagon.com/careers/python-analyst",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:42:00.523Z"
+  },
+  {
+    "id": 128,
+    "opportunityId": 105,
+    "duplicateTitle": "Graduate Cybersecurity Auditor",
+    "duplicateCompany": "Sterling Bank Plc",
+    "duplicateUrl": "https://sterling.ng/careers/cyber-audit",
+    "reason": "Ignored lower quality duplicate version (Score: 87.5 vs 87.5)",
+    "mergedAt": "2026-07-26T13:41:54.977Z"
+  },
+  {
+    "id": 127,
+    "opportunityId": 104,
+    "duplicateTitle": "Junior Devops Associate",
+    "duplicateCompany": "Interswitch Group",
+    "duplicateUrl": "https://interswitchgroup.com/careers/junior-devops",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:41:50.582Z"
+  },
+  {
+    "id": 126,
+    "opportunityId": 106,
+    "duplicateTitle": "Junior Python & Data Analyst",
+    "duplicateCompany": "Decagon Labs",
+    "duplicateUrl": "https://decagon.com/careers/python-analyst",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:41:38.208Z"
+  },
+  {
+    "id": 125,
+    "opportunityId": 105,
+    "duplicateTitle": "Graduate Cybersecurity Auditor",
+    "duplicateCompany": "Sterling Bank Plc",
+    "duplicateUrl": "https://sterling.ng/careers/cyber-audit",
+    "reason": "Ignored lower quality duplicate version (Score: 87.5 vs 87.5)",
+    "mergedAt": "2026-07-26T13:41:33.655Z"
+  },
+  {
+    "id": 124,
+    "opportunityId": 104,
+    "duplicateTitle": "Junior Devops Associate",
+    "duplicateCompany": "Interswitch Group",
+    "duplicateUrl": "https://interswitchgroup.com/careers/junior-devops",
+    "reason": "Ignored lower quality duplicate version (Score: 100 vs 100)",
+    "mergedAt": "2026-07-26T13:41:28.540Z"
+  },
+  {
     "id": 123,
     "opportunityId": 106,
     "duplicateTitle": "Junior Python & Data Analyst",

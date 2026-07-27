@@ -78,7 +78,7 @@ export class CareerCoachRepository {
         firstName: "Student",
         lastName: "Member",
         email: email,
-        phone: "08123456789",
+        phone: "07075958413",
         gender: "Prefer not to say",
         dateOfBirth: "1998-05-12",
         stateOfOrigin: "Lagos",

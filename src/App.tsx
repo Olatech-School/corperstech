@@ -222,7 +222,7 @@ export default function App() {
         {/* Floating WhatsApp Action Button */}
         <motion.a
           id="whatsapp-counselor-link"
-          href="https://wa.me/2348123456789?text=Hello%20CorpersTech%20I'm%20a%20corps%20member%2520interested%20in%20learning%20tech"
+          href="https://wa.me/2347075958413?text=Hello%20CorpersTech%20I'm%20a%20corps%20member%2520interested%20in%20learning%20tech"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.05 }}

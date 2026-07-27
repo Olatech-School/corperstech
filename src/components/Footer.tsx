@@ -101,11 +101,11 @@ export default function Footer({ setActiveTab, onRegisterClick }: FooterProps) {
               </li>
               <li className="flex items-start gap-2.5">
                 <Mail size={14} className="text-emerald-500 mt-0.5 shrink-0" />
-                <span>support@corperstech.com.ng</span>
+                <span>support@olatechschoolofprogramming@gmail.com</span>
               </li>
               <li className="flex items-start gap-2.5">
                 <MapPin size={14} className="text-emerald-500 mt-0.5 shrink-0" />
-                <span className="leading-relaxed">Olatech Tech Hub, Lagos, Nigeria</span>
+                <span className="leading-relaxed">Olatech School of Programming, PortHarcourt, Nigeria</span>
               </li>
               <li className="flex items-start gap-2.5">
                 <Globe size={14} className="text-emerald-500 mt-0.5 shrink-0" />

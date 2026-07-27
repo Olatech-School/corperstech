@@ -1,5 +1,325 @@
 [
   {
+    "id": 168,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Devops Associate\" from \"Interswitch Group\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:44:00.814Z"
+  },
+  {
+    "id": 167,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Python & Data Analyst\" from \"Decagon Labs\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:51.870Z"
+  },
+  {
+    "id": 166,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Python & Data Analyst\" from \"Decagon Labs\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:51.292Z"
+  },
+  {
+    "id": 165,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Graduate Cybersecurity Auditor\" from \"Sterling Bank Plc\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:48.471Z"
+  },
+  {
+    "id": 164,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Graduate Cybersecurity Auditor\" from \"Sterling Bank Plc\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:47.489Z"
+  },
+  {
+    "id": 163,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Devops Associate\" from \"Interswitch Group\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:45.081Z"
+  },
+  {
+    "id": 162,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Devops Associate\" from \"Interswitch Group\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:43.295Z"
+  },
+  {
+    "id": 161,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Python & Data Analyst\" from \"Decagon Labs\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:35.709Z"
+  },
+  {
+    "id": 160,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Python & Data Analyst\" from \"Decagon Labs\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:35.485Z"
+  },
+  {
+    "id": 159,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Python & Data Analyst\" from \"Decagon Labs\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:33.736Z"
+  },
+  {
+    "id": 158,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Graduate Cybersecurity Auditor\" from \"Sterling Bank Plc\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:31.783Z"
+  },
+  {
+    "id": 157,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Graduate Cybersecurity Auditor\" from \"Sterling Bank Plc\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:31.692Z"
+  },
+  {
+    "id": 156,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Graduate Cybersecurity Auditor\" from \"Sterling Bank Plc\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:29.025Z"
+  },
+  {
+    "id": 155,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Devops Associate\" from \"Interswitch Group\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:27.857Z"
+  },
+  {
+    "id": 154,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Devops Associate\" from \"Interswitch Group\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:27.682Z"
+  },
+  {
+    "id": 153,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Devops Associate\" from \"Interswitch Group\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:26.050Z"
+  },
+  {
+    "id": 152,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Python & Data Analyst\" from \"Decagon Labs\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:17.310Z"
+  },
+  {
+    "id": 151,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Graduate Cybersecurity Auditor\" from \"Sterling Bank Plc\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:12.669Z"
+  },
+  {
+    "id": 150,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Python & Data Analyst\" from \"Decagon Labs\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:12.326Z"
+  },
+  {
+    "id": 149,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Devops Associate\" from \"Interswitch Group\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:06.988Z"
+  },
+  {
+    "id": 148,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Graduate Cybersecurity Auditor\" from \"Sterling Bank Plc\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:06.167Z"
+  },
+  {
+    "id": 147,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Devops Associate\" from \"Interswitch Group\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:43:02.805Z"
+  },
+  {
+    "id": 146,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Python & Data Analyst\" from \"Decagon Labs\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:42:56.745Z"
+  },
+  {
+    "id": 145,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Python & Data Analyst\" from \"Decagon Labs\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:42:53.743Z"
+  },
+  {
+    "id": 144,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Graduate Cybersecurity Auditor\" from \"Sterling Bank Plc\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:42:47.430Z"
+  },
+  {
+    "id": 143,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Graduate Cybersecurity Auditor\" from \"Sterling Bank Plc\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:42:47.082Z"
+  },
+  {
+    "id": 142,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Devops Associate\" from \"Interswitch Group\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:42:43.541Z"
+  },
+  {
+    "id": 141,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Devops Associate\" from \"Interswitch Group\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:42:42.609Z"
+  },
+  {
+    "id": 140,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Python & Data Analyst\" from \"Decagon Labs\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:42:35.662Z"
+  },
+  {
+    "id": 139,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Graduate Cybersecurity Auditor\" from \"Sterling Bank Plc\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:42:31.378Z"
+  },
+  {
+    "id": 138,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Devops Associate\" from \"Interswitch Group\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:42:25.860Z"
+  },
+  {
+    "id": 137,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Python & Data Analyst\" from \"Decagon Labs\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:42:23.265Z"
+  },
+  {
+    "id": 136,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Graduate Cybersecurity Auditor\" from \"Sterling Bank Plc\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:42:16.655Z"
+  },
+  {
+    "id": 135,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Devops Associate\" from \"Interswitch Group\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:42:12.422Z"
+  },
+  {
+    "id": 134,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Python & Data Analyst\" from \"Decagon Labs\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:42:00.528Z"
+  },
+  {
+    "id": 133,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Graduate Cybersecurity Auditor\" from \"Sterling Bank Plc\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:41:54.984Z"
+  },
+  {
+    "id": 132,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Devops Associate\" from \"Interswitch Group\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:41:50.586Z"
+  },
+  {
+    "id": 131,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Python & Data Analyst\" from \"Decagon Labs\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:41:38.212Z"
+  },
+  {
+    "id": 130,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Graduate Cybersecurity Auditor\" from \"Sterling Bank Plc\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:41:33.658Z"
+  },
+  {
+    "id": 129,
+    "title": "Duplicate Ignored",
+    "message": "Detected duplicate for \"Junior Devops Associate\" from \"Interswitch Group\". Ignored the new lower-quality duplicate.",
+    "type": "duplicate_detected",
+    "isRead": false,
+    "createdAt": "2026-07-26T13:41:28.543Z"
+  },
+  {
     "id": 128,
     "title": "Duplicate Ignored",
     "message": "Detected duplicate for \"Junior Python & Data Analyst\" from \"Decagon Labs\". Ignored the new lower-quality duplicate.",

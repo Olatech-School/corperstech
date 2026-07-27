@@ -1263,7 +1263,7 @@ function UpcomingEventsModule({ onRegisterClick, setActiveTab }: { onRegisterCli
           ...prev,
           fullName: data.profile.fullName || data.profile.name || prev.fullName,
           email: emailToLoad,
-          phone: data.profile.phone || "08123456789",
+          phone: data.profile.phone || "07075958413",
           course: data.profile.course || "Software Engineering",
           nyscState: data.profile.nyscState || "Lagos",
           nyscBatch: data.profile.nyscBatch || "2026 Batch A Stream 1",
@@ -1660,7 +1660,7 @@ function UpcomingEventsModule({ onRegisterClick, setActiveTab }: { onRegisterCli
                       required
                       value={formData.phone}
                       onChange={e => setFormData({...formData, phone: e.target.value})}
-                      placeholder="08123456789"
+                      placeholder="07075958413"
                       className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-bold focus:outline-none focus:border-emerald-500"
                     />
                   </div>

@@ -16,5 +16,32 @@
     "eventType": "Login",
     "description": "Staff member logged in successfully: admineducert@gmail.com",
     "status": "Success"
+  },
+  {
+    "id": 3,
+    "timestamp": "2026-07-27T07:02:22.464Z",
+    "user": "Super Admin",
+    "userRole": "Super Admin",
+    "eventType": "Failed Login",
+    "description": "Incorrect passcode entered for admineducert@gmail.com",
+    "status": "Failed"
+  },
+  {
+    "id": 4,
+    "timestamp": "2026-07-27T07:02:50.272Z",
+    "user": "Super Admin",
+    "userRole": "Super Admin",
+    "eventType": "Login",
+    "description": "Staff member logged in successfully: admineducert@gmail.com",
+    "status": "Success"
+  },
+  {
+    "id": 5,
+    "timestamp": "2026-07-27T07:02:54.989Z",
+    "user": "Super Admin",
+    "userRole": "Super Admin",
+    "eventType": "Login",
+    "description": "Staff member logged in successfully: admineducert@gmail.com",
+    "status": "Success"
   }
 ]

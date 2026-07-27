@@ -1297,7 +1297,7 @@ export default function DocumentationCenterView({
                   </a>
                 </li>
                 <li>
-                  <a href="https://wa.me/2348123456789" target="_blank" rel="noreferrer" className="flex items-center justify-between hover:text-emerald-600">
+                  <a href="https://wa.me/07075958413" target="_blank" rel="noreferrer" className="flex items-center justify-between hover:text-emerald-600">
                     Olatech IT Support WhatsApp
                     <ExternalLink size={12} className="text-slate-400" />
                   </a>

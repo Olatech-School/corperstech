@@ -174,7 +174,7 @@ export default function ContactView() {
                 <div className="space-y-0.5">
                   <h4 className="text-xs font-bold text-slate-800">Physical Campus</h4>
                   <p className="text-[11px] text-slate-400 leading-normal">
-                    Olatech Tech Hub, Lagos, Nigeria.
+                    Olatech School of Programming, PortHarcourt, Nigeria.
                   </p>
                 </div>
               </div>
@@ -184,8 +184,7 @@ export default function ContactView() {
                 <div className="space-y-0.5">
                   <h4 className="text-xs font-bold text-slate-800">Direct Email Helpdesk</h4>
                   <p className="text-[11px] text-slate-400 leading-normal">
-                    support@corperstech.com.ng<br />
-                    admissions@olatechschool.com.ng
+                    support@olatechschoolofprogramming@gmail.com<br />
                   </p>
                 </div>
               </div>
@@ -195,7 +194,7 @@ export default function ContactView() {
                 <div className="space-y-0.5">
                   <h4 className="text-xs font-bold text-slate-800">Telephone Lines</h4>
                   <p className="text-[11px] text-slate-400 leading-normal">
-                    +234 707 595 8413 (WhatsApp & Support Lines)
+                    +234 707 595 8413 / +234 807 052 5838 (WhatsApp & Support Lines)
                   </p>
                 </div>
               </div>

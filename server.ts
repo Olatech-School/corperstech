@@ -1,4 +1,5 @@
 import express from 'express';
+import helmet from 'helmet';
 import path from 'path';
 import { createServer as createViteServer } from 'vite';
 import { EnrollmentController } from './src/server/controllers/EnrollmentController.ts';
@@ -18,6 +19,7 @@ import { CareerExplorerController } from './src/server/controllers/CareerExplore
 
 async function startServer() {
   const app = express();
+  app.use(helmet());
   const PORT = Number(process.env.PORT) || 3000;
 
   // Enable JSON body parser

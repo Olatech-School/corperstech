@@ -41,7 +41,7 @@ function loadFallbackData(): any[] {
       firstName: "Yusuf",
       lastName: "Kolawole",
       email: "yusuf@gmail.com",
-      phone: "08123456789",
+      phone: "07075958413",
       gender: "Male",
       dateOfBirth: "1998-05-12",
       stateOfOrigin: "Kwara",
