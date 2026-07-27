@@ -123,40 +123,56 @@ function saveFallbackData(data: any[]): void {
 
 export class EnrollmentRepository {
   static async create(data: CreateEnrollmentInput) {
-    try {
-      const prisma = getPrisma();
-      return await prisma.enrollment.create({
-        data: {
-          ...data,
-          status: 'Pending',
-        },
-      });
-    } catch (error) {
-  console.error('❌ PRISMA ENROLLMENT CREATE FAILED:', error);
-  throw error;
-}
-      
-      // Enforce unique email check
-      const emailExists = list.some(item => item.email.toLowerCase() === data.email.toLowerCase());
-      if (emailExists) {
-        throw new Error(`Unique constraint failed: an enrollment with email ${data.email} already exists.`);
-      }
+  try {
+    const prisma = getPrisma();
 
-      const nextId = list.reduce((max, item) => item.id > max ? item.id : max, 0) + 1;
-      const newRecord = {
-        id: nextId,
+    return await prisma.enrollment.create({
+      data: {
         ...data,
         status: 'Pending',
-        adminNotes: null,
-        createdAt: new Date().toISOString(),
-        updatedAt: new Date().toISOString()
-      };
-      
-      list.push(newRecord);
-      saveFallbackData(list);
-      return newRecord;
+      },
+    });
+  } catch (error) {
+    console.error('❌ PRISMA ENROLLMENT CREATE FAILED:', error);
+
+    const list = loadFallbackData();
+
+    // Enforce unique email check
+    const emailExists = list.some(
+      item => item.email.toLowerCase() === data.email.toLowerCase()
+    );
+
+    if (emailExists) {
+      throw new Error(
+        `Unique constraint failed: an enrollment with email ${data.email} already exists.`
+      );
     }
+
+    const nextId =
+      list.reduce(
+        (max, item) => item.id > max ? item.id : max,
+        0
+      ) + 1;
+
+    const newRecord = {
+      id: nextId,
+      ...data,
+      status: 'Pending',
+      adminNotes: null,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+    };
+
+    list.push(newRecord);
+    saveFallbackData(list);
+
+    console.warn(
+      `⚠️ Enrollment saved to fallback database with ID ${nextId}.`
+    );
+
+    return newRecord;
   }
+}
 
   static async findAll() {
     try {
